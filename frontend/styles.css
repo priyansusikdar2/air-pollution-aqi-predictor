@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+}
+
+/* ✅ Center container properly */
+.container {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+/* ✅ Better heading spacing */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* ✅ Form layout fix */
+.form {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 600px;
+}
+
+/* ✅ Improved input styling */
+input {
+    padding: 12px;
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* ✅ Button improvement */
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff7e5f;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff5733;
+}
+
+/* ✅ Result box improved */
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    min-width: 250px;
+    background: rgba(255, 255, 255, 0.15); /* glass effect */
+    backdrop-filter: blur(10px);
+}
+
+/* ✅ Hide class */
+.hidden {
+    display: none;
+}
+
+/* ✅ Error styling */
+#error {
+    color: #ffeb3b;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* ✅ Mobile responsive fix */
+@media (max-width: 600px) {
+    input {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

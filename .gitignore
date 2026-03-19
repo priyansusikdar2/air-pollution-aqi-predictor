@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+venv/
+.env/
+.env.*
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data
+data/processed/
+data/raw/
+data/external/
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# Streamlit cache
+.streamlit/
+
+# Python profiling
+.prof
+*.prof
