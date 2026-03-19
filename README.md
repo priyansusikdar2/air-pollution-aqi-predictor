@@ -34,7 +34,7 @@ Air pollution is a major concern in India’s urban environments. This project l
 
 * XGBoost 🔥
 * Scikit-learn
-* Pandas, NumPy
+* Pandas, NumPy, Seaborn
 * RandomForest Classifier
 
 ---
